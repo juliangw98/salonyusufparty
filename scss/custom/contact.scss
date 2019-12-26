@@ -1,0 +1,45 @@
+.tijden {
+  display: flex;
+  overflow: scroll;
+  padding: 20px;
+}
+
+.window {
+  flex-grow: 1;
+  text-align: center;
+  padding: 20px 10px;
+  list-style-type: none;
+  filter: drop-shadow(0 0 0.75rem #f4f4f4);
+  background-color: white;
+  margin-right: 10px;
+}
+
+iframe {
+  height: 30vh;
+}
+
+.tab {
+  padding: 20px 10px;
+  list-style-type: none;
+  filter: drop-shadow(0 0 0.75rem #f4f4f4);
+  background-color: white;
+}
+@media (min-width: 576px) {}
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) {}
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) {
+  .afspraak-img {
+    background-image: url("../images/salon.png");
+    height: 100vh;
+    width: 100%;
+    padding: 0;
+    background-size: cover;
+  }
+
+  iframe {
+    height: 100vh;
+  }
+}
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) {};

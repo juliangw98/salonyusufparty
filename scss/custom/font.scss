@@ -1,0 +1,46 @@
+@import url("https://use.typekit.net/jwt7ntr.css");
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Muli:400,900&display=swap');
+
+* {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: #333;
+}
+
+h1,
+h2,
+h3 {
+  font-family: 'Muli', sans-serif;
+  font-weight: 900;
+  text-transform: uppercase;
+  color: $primary;
+}
+
+p {
+  line-height: 1.9;
+}
+
+.fas {
+  color: $primary;
+}
+
+h1 {
+  font-size: 18px;
+}
+
+h2 {
+  font-size: 1.5rem;
+}
+@media (min-width: 576px) {
+  h1 {
+    font-size: 2rem;
+  }
+}
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) {}
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) {}
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) {};

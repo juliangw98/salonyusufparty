@@ -1,0 +1,215 @@
+body {
+  height: 100vh;
+  overflow: hidden;
+}
+
+#home2 {
+  display: none;
+}
+
+#home1 {
+
+  display: grid;
+  height: 100vh;
+  width: 100%;
+  grid-template-rows: auto;
+  grid-template-areas: "contact contact" "afspraak over" "afspraak tarieven" "klanten producten";
+  grid-column-gap: 15px;
+  grid-row-gap: 15px;
+
+  div {
+    display: flex;
+    align-items: flex-end;
+    padding: 25px;
+  }
+}
+
+#contact {
+  grid-area: contact;
+  background-image: url("../images/salon.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#afspraak {
+  grid-area: afspraak;
+  background-image: url("../images/salon.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#over {
+  grid-area: over;
+  background-image: url("../images/salon.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#tarieven {
+  grid-area: tarieven;
+  background-image: url("../images/salon.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#resultaten {
+  grid-area: klanten;
+  background-image: url("../images/salon.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#producten {
+  grid-area: producten;
+  background-image: url("../images/salon.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.content {
+  visibility: collapse;
+}
+
+#contact-content {
+  height: 100vh;
+  position: absolute;
+  background-color: white;
+  top: 100vh;
+  transition: 0.5s ease-in;
+}
+
+#afspraak-content {
+  height: 100vh;
+  position: absolute;
+  background-color: white;
+  top: 100vh;
+  transition: 0.5s ease-in;
+}
+
+#klant-content {
+  height: 100vh;
+  position: absolute;
+  background-color: white;
+  top: 100vh;
+  transition: 0.5s ease-in;
+}
+
+#over-content {
+  height: 100vh;
+  position: absolute;
+  background-color: white;
+  top: 100vh;
+  transition: 0.5s ease-in;
+}
+
+#yusuf-content {
+  height: 100vh;
+  position: absolute;
+  background-color: white;
+  top: 100vh;
+  transition: 0.5s ease-in;
+}
+
+#gigi-content {
+  height: 100vh;
+  position: absolute;
+  background-color: white;
+  top: 100vh;
+  transition: 0.5s ease-in;
+}
+
+#salon-content {
+  height: 100vh;
+  position: absolute;
+  background-color: white;
+  top: 100vh;
+  transition: 0.5s ease-in;
+}
+
+#tarieven-content {
+  height: 100vh;
+  position: absolute;
+  background-color: white;
+  top: 100vh;
+  transition: 0.5s ease-in;
+}
+
+#producten-content {
+  height: 100vh;
+  position: absolute;
+  background-color: white;
+  top: 100vh;
+  transition: 0.5s ease-in;
+}
+@media (min-width: 576px) {}
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) {}
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) {
+  #home1 {
+    display: none;
+  }
+
+  #home2 {
+    width: 100%;
+    display: flex;
+    height: 100vh;
+    flex-direction: row;
+
+    .column {
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      margin-left: 5px;
+      margin-right: 5px;
+
+      div {
+        display: flex;
+        width: 100%;
+        flex-grow: 1;
+        margin-top: 5px;
+        margin-bottom: 5px;
+        align-items: flex-end;
+        padding: 25px;
+      }
+    }
+  }
+
+  #contact2 {
+    background-image: url("../images/salon.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  #afspraak2 {
+    background-image: url("../images/salon.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  #over2 {
+    background-image: url("../images/salon.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  #tarieven2 {
+    background-image: url("../images/salon.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  #resultaten2 {
+    background-image: url("../images/salon.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  #producten2 {
+    background-image: url("../images/salon.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+}
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) {}

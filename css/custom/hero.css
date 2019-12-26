@@ -1,0 +1,8 @@
+#pf {
+  background-image: url(../images/pf.jpg);
+  height: 500px;
+  background-size: cover;
+  background-position: 30%;
+  border-radius: 15px;
+  -webkit-filter: drop-shadow(0 0 0.75rem #333);
+  filter: drop-shadow(0 0 0.75rem #333); }

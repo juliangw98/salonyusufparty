@@ -1,0 +1,117 @@
+#over-content {
+  .close {
+    position: fixed;
+    right: 50px;
+    top: 50px;
+    background-color: #FFF;
+    padding: 10px 20px;
+  }
+
+  h1 {
+    font-size: 15px;
+  }
+  display: grid;
+  height: 100vh;
+  width: 100%;
+  grid-template-rows: auto;
+  grid-template-areas: "yusuf" "gigi" "salon";
+  grid-column-gap: 15px;
+  grid-row-gap: 15px;
+
+  div {
+    flex-direction: column;
+    display: flex;
+    align-items: flex-start;
+    padding: 25px;
+    background-color: #333;
+    width: 100%;
+    justify-content: flex-end;
+  }
+}
+
+.yusuf {
+  grid-area: yusuf;
+  background-image: url("../images/salon.png");
+}
+
+.gigi {
+  grid-area: gigi;
+  background-image: url("../images/salon.png");
+}
+
+.salon {
+  grid-area: salon;
+  background-image: url("../images/salon.png");
+}
+
+#gigi-content,
+#salon-content,
+#yusuf-content {
+  .yusuf {
+    height: 40vh;
+  }
+
+  .gigi {
+    height: 40vh;
+  }
+
+  .salon {
+    height: 40vh;
+  }
+}
+@media (min-width: 576px) {}
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) {}
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) {
+  #over-content {
+    h1 {
+      font-size: 15px;
+    }
+    display: grid;
+    height: 100vh;
+    width: 100%;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    grid-template-areas: "yusuf gigi salon";
+    grid-column-gap: 15px;
+    grid-row-gap: 15px;
+
+    div {
+      display: flex;
+      padding: 25px;
+      background-color: #333;
+      width: 100%;
+    }
+
+    .yusuf {
+      grid-area: yusuf;
+    }
+
+    .gigi {
+      grid-area: gigi;
+    }
+
+    .salon {
+      grid-area: salon;
+    }
+  }
+
+  #gigi-content,
+  #salon-content,
+  #yusuf-content {
+    .yusuf {
+      height: 100vh;
+    }
+
+    .gigi {
+      height: 100vh;
+    }
+
+    .salon {
+      height: 100vh;
+    }
+  }
+}
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) {};

@@ -1,0 +1,28 @@
+.lijst {
+  filter: drop-shadow(0 0 0.75rem #f4f4f4);
+  background-color: white;
+
+  .price-item {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #333;
+    margin-bottom: 15px;
+
+  }
+
+  .omschrijving {
+    h2{
+      color: #333;
+    }
+    display: flex;
+    flex-direction: column;
+
+  }
+}
+@media (min-width: 576px) {}
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) {}
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) {}
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) {};
