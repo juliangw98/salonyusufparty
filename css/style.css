@@ -8137,7 +8137,8 @@ a.text-dark:hover, a.text-dark:focus {
 
 body {
   height: 100vh;
-  overflow: hidden; }
+  /* Fallback for browsers that do not support Custom Properties */
+  height: calc(var(--vh, 1vh) * 100); }
 
 #home2 {
   display: none; }
