@@ -1,4 +1,7 @@
-
+body{
+  height:100vh;
+  overflow: hidden;
+}
 
 #home2 {
   display: none;
@@ -13,6 +16,7 @@
   grid-template-areas: "contact contact" "afspraak over" "afspraak tarieven" "klanten producten";
   grid-column-gap: 15px;
   grid-row-gap: 15px;
+  overflow: hidden;
 
   div {
     display: flex;

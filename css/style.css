@@ -8135,6 +8135,10 @@ a.text-dark:hover, a.text-dark:focus {
     color: inherit;
     border-color: #dee2e6; } }
 
+body {
+  height: 100vh;
+  overflow: hidden; }
+
 #home2 {
   display: none; }
 
@@ -8147,7 +8151,8 @@ a.text-dark:hover, a.text-dark:focus {
   grid-template-rows: auto;
   grid-template-areas: "contact contact" "afspraak over" "afspraak tarieven" "klanten producten";
   grid-column-gap: 15px;
-  grid-row-gap: 15px; }
+  grid-row-gap: 15px;
+  overflow: hidden; }
   #home1 div {
     display: -webkit-box;
     display: -ms-flexbox;
