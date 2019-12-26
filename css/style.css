@@ -8209,7 +8209,6 @@ a.text-dark:hover, a.text-dark:focus {
   background-repeat: no-repeat; }
 
 #contact-content {
-  height: 100vh;
   position: absolute;
   background-color: white;
   top: 100vh;
@@ -8218,7 +8217,6 @@ a.text-dark:hover, a.text-dark:focus {
   transition: 0.5s ease-in; }
 
 #afspraak-content {
-  height: 100vh;
   position: absolute;
   background-color: white;
   top: 100vh;
@@ -8227,7 +8225,6 @@ a.text-dark:hover, a.text-dark:focus {
   transition: 0.5s ease-in; }
 
 #klant-content {
-  height: 100vh;
   position: absolute;
   background-color: white;
   top: 100vh;
@@ -8236,7 +8233,6 @@ a.text-dark:hover, a.text-dark:focus {
   transition: 0.5s ease-in; }
 
 #over-content {
-  height: 100vh;
   position: absolute;
   background-color: white;
   top: 100vh;
@@ -8245,7 +8241,6 @@ a.text-dark:hover, a.text-dark:focus {
   transition: 0.5s ease-in; }
 
 #yusuf-content {
-  height: 100vh;
   position: absolute;
   background-color: white;
   top: 100vh;
@@ -8254,7 +8249,6 @@ a.text-dark:hover, a.text-dark:focus {
   transition: 0.5s ease-in; }
 
 #gigi-content {
-  height: 100vh;
   position: absolute;
   background-color: white;
   top: 100vh;
@@ -8263,7 +8257,6 @@ a.text-dark:hover, a.text-dark:focus {
   transition: 0.5s ease-in; }
 
 #salon-content {
-  height: 100vh;
   position: absolute;
   background-color: white;
   top: 100vh;
@@ -8272,7 +8265,6 @@ a.text-dark:hover, a.text-dark:focus {
   transition: 0.5s ease-in; }
 
 #tarieven-content {
-  height: 100vh;
   position: absolute;
   background-color: white;
   top: 100vh;
@@ -8281,7 +8273,6 @@ a.text-dark:hover, a.text-dark:focus {
   transition: 0.5s ease-in; }
 
 #producten-content {
-  height: 100vh;
   position: absolute;
   background-color: white;
   top: 100vh;
