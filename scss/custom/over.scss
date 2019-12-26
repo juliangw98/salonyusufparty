@@ -31,17 +31,24 @@
 
 .yusuf {
   grid-area: yusuf;
-  background-image: url("../images/salon.png");
+  background-image: url("../images/yusuf.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .gigi {
   grid-area: gigi;
-  background-image: url("../images/salon.png");
+  background-image: url("../images/gigi.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 .salon {
   grid-area: salon;
-  background-image: url("../images/salon.png");
+  background-image: url("../images/salon.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 #gigi-content,
