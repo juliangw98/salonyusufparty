@@ -67,9 +67,7 @@ body {
   background-repeat: no-repeat;
 }
 
-.content {
-  visibility: collapse;
-}
+
 
 #contact-content {
   height: 100vh;
@@ -141,6 +139,9 @@ body {
   background-color: white;
   top: 100vh;
   transition: 0.5s ease-in;
+}
+.content {
+  display: none!important;
 }
 @media (min-width: 576px) {}
 // Medium devices (tablets, 768px and up)

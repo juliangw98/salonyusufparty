@@ -8213,9 +8213,6 @@ body {
   background-size: cover;
   background-repeat: no-repeat; }
 
-.content {
-  visibility: collapse; }
-
 #contact-content {
   height: 100vh;
   position: absolute;
@@ -8296,6 +8293,9 @@ body {
   -webkit-transition: 0.5s ease-in;
   -o-transition: 0.5s ease-in;
   transition: 0.5s ease-in; }
+
+.content {
+  display: none !important; }
 
 @media (min-width: 992px) {
   #home1 {
@@ -8608,7 +8608,8 @@ img {
   -webkit-transition: 0.4s ease-in;
   -o-transition: 0.4s ease-in;
   transition: 0.4s ease-in;
-  visibility: visible; }
+  visibility: visible;
+  display: block !important; }
 
 .close {
   padding: 20px; }
