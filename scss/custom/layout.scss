@@ -1,5 +1,5 @@
 body {
-  height: 90vh;
+  height: 80vh;
   overflow: hidden;
 }
 
@@ -10,7 +10,7 @@ body {
 #home1 {
 
   display: grid;
-  height: 90vh;
+  height: 80vh;
   width: 100%;
   grid-template-rows: auto;
   grid-template-areas: "contact contact" "afspraak over" "afspraak tarieven" "klanten producten";
