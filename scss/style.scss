@@ -51,15 +51,14 @@
 img{
 	height: 100%;
 }
-.content {
-	overflow: scroll;
-}
+// .content {
+// 	overflow: scroll;
+// }
 
 .slideUp {
 	top: 0vh!important;
 	transition: 0.4s ease-in;
 	visibility: visible;
-	display: block!important;
 }
 
 .close {

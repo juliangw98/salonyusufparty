@@ -1,4 +1,8 @@
-
+body{
+  height: 100vh;
+}
+.content{
+}
 #home2 {
   display: none;
 }
@@ -62,7 +66,10 @@
   background-repeat: no-repeat;
 }
 
-
+.content {
+  visibility: hidden;
+  min-height: 100vh;
+}
 
 #contact-content {
   position: absolute;
@@ -125,9 +132,6 @@
   background-color: white;
   top: 100vh;
   transition: 0.5s ease-in;
-}
-.content {
-  display: none!important;
 }
 @media (min-width: 576px) {}
 // Medium devices (tablets, 768px and up)

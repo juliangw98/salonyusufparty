@@ -8135,6 +8135,9 @@ a.text-dark:hover, a.text-dark:focus {
     color: inherit;
     border-color: #dee2e6; } }
 
+body {
+  height: 100vh; }
+
 #home2 {
   display: none; }
 
@@ -8208,6 +8211,10 @@ a.text-dark:hover, a.text-dark:focus {
   background-size: cover;
   background-repeat: no-repeat; }
 
+.content {
+  visibility: hidden;
+  min-height: 100vh; }
+
 #contact-content {
   position: absolute;
   background-color: white;
@@ -8279,9 +8286,6 @@ a.text-dark:hover, a.text-dark:focus {
   -webkit-transition: 0.5s ease-in;
   -o-transition: 0.5s ease-in;
   transition: 0.5s ease-in; }
-
-.content {
-  display: none !important; }
 
 @media (min-width: 992px) {
   #home1 {
@@ -8586,16 +8590,12 @@ iframe {
 img {
   height: 100%; }
 
-.content {
-  overflow: scroll; }
-
 .slideUp {
   top: 0vh !important;
   -webkit-transition: 0.4s ease-in;
   -o-transition: 0.4s ease-in;
   transition: 0.4s ease-in;
-  visibility: visible;
-  display: block !important; }
+  visibility: visible; }
 
 .close {
   padding: 20px; }
