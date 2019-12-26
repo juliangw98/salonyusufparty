@@ -8136,8 +8136,7 @@ a.text-dark:hover, a.text-dark:focus {
     border-color: #dee2e6; } }
 
 body {
-  height: 80vh;
-  overflow: hidden; }
+  height: 80vh; }
 
 #home2 {
   display: none; }
