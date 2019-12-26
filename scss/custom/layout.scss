@@ -1,6 +1,4 @@
-body {
-  height: 80vh;
-}
+
 
 #home2 {
   display: none;
@@ -9,7 +7,7 @@ body {
 #home1 {
 
   display: grid;
-  height: 80vh;
+  height: 100vh;
   width: 100%;
   grid-template-rows: auto;
   grid-template-areas: "contact contact" "afspraak over" "afspraak tarieven" "klanten producten";

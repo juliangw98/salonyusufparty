@@ -8135,16 +8135,13 @@ a.text-dark:hover, a.text-dark:focus {
     color: inherit;
     border-color: #dee2e6; } }
 
-body {
-  height: 80vh; }
-
 #home2 {
   display: none; }
 
 #home1 {
   display: -ms-grid;
   display: grid;
-  height: 80vh;
+  height: 100vh;
   width: 100%;
   -ms-grid-rows: auto;
   grid-template-rows: auto;
