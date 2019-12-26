@@ -24,45 +24,46 @@ body{
   }
 }
 
-#contact {
+.contact {
   grid-area: contact;
-  background-image: url("../images/salon.png");
+  background-image: url("../images/salon.jpg");
   background-size: cover;
   background-repeat: no-repeat;
 }
 
-#afspraak {
+.afspraak {
   grid-area: afspraak;
-  background-image: url("../images/salon.png");
+  background-image: url("../images/afspraak.jpg");
   background-size: cover;
   background-repeat: no-repeat;
 }
 
-#over {
+.over {
   grid-area: over;
-  background-image: url("../images/salon.png");
+  background-image: url("../images/crew.jpg");
   background-size: cover;
   background-repeat: no-repeat;
 }
 
-#tarieven {
+.tarieven {
   grid-area: tarieven;
-  background-image: url("../images/salon.png");
+  background-image: url("../images/tarieven.jpg");
   background-size: cover;
   background-repeat: no-repeat;
 }
 
-#resultaten {
+.resultaten {
   grid-area: klanten;
-  background-image: url("../images/salon.png");
+  background-image: url("../images/klanten.jpg");
   background-size: cover;
   background-repeat: no-repeat;
 }
 
-#producten {
+.producten {
   grid-area: producten;
-  background-image: url("../images/salon.png");
+  background-image: url("../images/product.jpg");
   background-size: cover;
+  background-position: center;
   background-repeat: no-repeat;
 }
 
@@ -168,37 +169,31 @@ body{
   }
 
   #contact2 {
-    background-image: url("../images/salon.png");
     background-size: cover;
     background-repeat: no-repeat;
   }
 
   #afspraak2 {
-    background-image: url("../images/salon.png");
     background-size: cover;
     background-repeat: no-repeat;
   }
 
   #over2 {
-    background-image: url("../images/salon.png");
     background-size: cover;
     background-repeat: no-repeat;
   }
 
   #tarieven2 {
-    background-image: url("../images/salon.png");
     background-size: cover;
     background-repeat: no-repeat;
   }
 
   #resultaten2 {
-    background-image: url("../images/salon.png");
     background-size: cover;
     background-repeat: no-repeat;
   }
 
   #producten2 {
-    background-image: url("../images/salon.png");
     background-size: cover;
     background-repeat: no-repeat;
   }
