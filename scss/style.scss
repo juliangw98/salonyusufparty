@@ -48,6 +48,9 @@
 @import "custom/over";
 @import "custom/prijzen";
 
+img{
+	height: 100%;
+}
 .content {
 	overflow: scroll;
 }
