@@ -1,6 +1,9 @@
-
+// = function() {
+//    document.body.height = window.innerHeight;
+// }
 
 $(window).on('load', function () {
+  document.body.height = window.innerHeight;
 $('.fadeInNow').addClass("fadeInAnimation");
 
 });
