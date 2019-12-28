@@ -4,7 +4,7 @@
 
 $(window).on('load', function () {
   $('.block').height = window.innerHeight;
-  console.log( window.innerHeight);
+  console.log($('.block').innerHeight);
 $('.fadeInNow').addClass("fadeInAnimation");
 
 });

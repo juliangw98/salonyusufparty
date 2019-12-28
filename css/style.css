@@ -8136,7 +8136,8 @@ a.text-dark:hover, a.text-dark:focus {
     border-color: #dee2e6; } }
 
 .block {
-  overflow: hidden; }
+  overflow: hidden;
+  height: 100vh; }
 
 .content {
   height: 100vh;
@@ -8218,12 +8219,12 @@ a.text-dark:hover, a.text-dark:focus {
 
 .content {
   visibility: hidden;
-  min-height: 100vh; }
+  height: 0; }
 
 #contact-content {
   position: absolute;
   background-color: white;
-  top: 100vh;
+  bottom: 0;
   -webkit-transition: 0.5s ease-in;
   -o-transition: 0.5s ease-in;
   transition: 0.5s ease-in; }
@@ -8231,7 +8232,7 @@ a.text-dark:hover, a.text-dark:focus {
 #afspraak-content {
   position: absolute;
   background-color: white;
-  top: 100vh;
+  bottom: 0;
   -webkit-transition: 0.5s ease-in;
   -o-transition: 0.5s ease-in;
   transition: 0.5s ease-in; }
@@ -8239,7 +8240,7 @@ a.text-dark:hover, a.text-dark:focus {
 #klant-content {
   position: absolute;
   background-color: white;
-  top: 100vh;
+  bottom: 0;
   -webkit-transition: 0.5s ease-in;
   -o-transition: 0.5s ease-in;
   transition: 0.5s ease-in; }
@@ -8247,7 +8248,7 @@ a.text-dark:hover, a.text-dark:focus {
 #over-content {
   position: absolute;
   background-color: white;
-  top: 100vh;
+  bottom: 0;
   -webkit-transition: 0.5s ease-in;
   -o-transition: 0.5s ease-in;
   transition: 0.5s ease-in; }
@@ -8255,7 +8256,7 @@ a.text-dark:hover, a.text-dark:focus {
 #yusuf-content {
   position: absolute;
   background-color: white;
-  top: 100vh;
+  bottom: 0;
   -webkit-transition: 0.5s ease-in;
   -o-transition: 0.5s ease-in;
   transition: 0.5s ease-in; }
@@ -8263,7 +8264,7 @@ a.text-dark:hover, a.text-dark:focus {
 #gigi-content {
   position: absolute;
   background-color: white;
-  top: 100vh;
+  bottom: 0;
   -webkit-transition: 0.5s ease-in;
   -o-transition: 0.5s ease-in;
   transition: 0.5s ease-in; }
@@ -8271,7 +8272,7 @@ a.text-dark:hover, a.text-dark:focus {
 #salon-content {
   position: absolute;
   background-color: white;
-  top: 100vh;
+  bottom: 0;
   -webkit-transition: 0.5s ease-in;
   -o-transition: 0.5s ease-in;
   transition: 0.5s ease-in; }
@@ -8279,7 +8280,7 @@ a.text-dark:hover, a.text-dark:focus {
 #tarieven-content {
   position: absolute;
   background-color: white;
-  top: 100vh;
+  bottom: 0;
   -webkit-transition: 0.5s ease-in;
   -o-transition: 0.5s ease-in;
   transition: 0.5s ease-in; }
@@ -8287,7 +8288,7 @@ a.text-dark:hover, a.text-dark:focus {
 #producten-content {
   position: absolute;
   background-color: white;
-  top: 100vh;
+  bottom: 0;
   -webkit-transition: 0.5s ease-in;
   -o-transition: 0.5s ease-in;
   transition: 0.5s ease-in; }
@@ -8591,7 +8592,7 @@ img {
   height: 100%; }
 
 .slideUp {
-  top: 0vh !important;
+  height: 100vh !important;
   -webkit-transition: 0.4s ease-in;
   -o-transition: 0.4s ease-in;
   transition: 0.4s ease-in;

@@ -1,9 +1,10 @@
 .block {
   overflow: hidden;
+  height: 100vh;
 }
 
 .content {
-  height:100vh;
+  height: 100vh;
   overflow: scroll;
 }
 
@@ -73,69 +74,69 @@
 
 .content {
   visibility: hidden;
-  min-height: 100vh;
+  height: 0;
 }
 
 #contact-content {
   position: absolute;
   background-color: white;
-  top: 100vh;
+  bottom: 0;
   transition: 0.5s ease-in;
 }
 
 #afspraak-content {
   position: absolute;
   background-color: white;
-  top: 100vh;
+  bottom: 0;
   transition: 0.5s ease-in;
 }
 
 #klant-content {
   position: absolute;
   background-color: white;
-  top: 100vh;
+  bottom: 0;
   transition: 0.5s ease-in;
 }
 
 #over-content {
   position: absolute;
   background-color: white;
-  top: 100vh;
+  bottom: 0;
   transition: 0.5s ease-in;
 }
 
 #yusuf-content {
   position: absolute;
   background-color: white;
-  top: 100vh;
+  bottom: 0;
   transition: 0.5s ease-in;
 }
 
 #gigi-content {
   position: absolute;
   background-color: white;
-  top: 100vh;
+  bottom: 0;
   transition: 0.5s ease-in;
 }
 
 #salon-content {
   position: absolute;
   background-color: white;
-  top: 100vh;
+  bottom: 0;
   transition: 0.5s ease-in;
 }
 
 #tarieven-content {
   position: absolute;
   background-color: white;
-  top: 100vh;
+  bottom: 0;
   transition: 0.5s ease-in;
 }
 
 #producten-content {
   position: absolute;
   background-color: white;
-  top: 100vh;
+  bottom: 0;
   transition: 0.5s ease-in;
 }
 @media (min-width: 576px) {}
