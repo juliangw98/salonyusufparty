@@ -3,7 +3,8 @@
 // }
 
 $(window).on('load', function () {
-  document.body.height = window.innerHeight;
+  $('.block').height = window.innerHeight;
+  console.log( window.innerHeight);
 $('.fadeInNow').addClass("fadeInAnimation");
 
 });
