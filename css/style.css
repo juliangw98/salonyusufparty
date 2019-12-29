@@ -8361,7 +8361,8 @@ h3 {
   font-family: 'Muli', sans-serif;
   font-weight: 900;
   text-transform: uppercase;
-  color: #9F8A61; }
+  color: #9F8A61;
+  font-size: 10px; }
 
 p {
   line-height: 1.9; }
@@ -8371,9 +8372,6 @@ p {
 
 h1 {
   font-size: 18px; }
-
-h2 {
-  font-size: 1.5rem; }
 
 @media (min-width: 576px) {
   h1 {
