@@ -8140,7 +8140,6 @@ a.text-dark:hover, a.text-dark:focus {
   height: 100vh; }
 
 .content {
-  height: 100vh;
   overflow: scroll; }
 
 #home2 {
@@ -8424,7 +8423,6 @@ iframe {
 #over-content {
   display: -ms-grid;
   display: grid;
-  height: 100vh;
   width: 100%;
   -ms-grid-rows: auto;
   grid-template-rows: auto;
@@ -8432,11 +8430,16 @@ iframe {
   grid-column-gap: 15px;
   grid-row-gap: 15px; }
   #over-content .close {
-    position: fixed;
-    right: 50px;
+    position: absolute;
+    left: 50px;
     top: 50px;
     background-color: #FFF;
-    padding: 10px 20px; }
+    padding: 10px 20px;
+    opacity: 1;
+    -webkit-filter: drop-shadow(0 0 0.75rem #333);
+    filter: drop-shadow(0 0 0.75rem #333); }
+  #over-content .close:hover {
+    background-color: #f4f4f4; }
   #over-content h1 {
     font-size: 15px; }
   #over-content div {
@@ -8463,7 +8466,8 @@ iframe {
   grid-area: yusuf;
   background-image: url("../images/yusuf.jpg");
   background-size: cover;
-  background-repeat: no-repeat; }
+  background-repeat: no-repeat;
+  background-position: center; }
 
 .gigi {
   -ms-grid-row: 3;
@@ -8501,7 +8505,6 @@ iframe {
   #over-content {
     display: -ms-grid;
     display: grid;
-    height: 100vh;
     width: 100%;
     -ms-grid-columns: 1fr 15px 1fr 15px 1fr;
     grid-template-columns: 1fr 1fr 1fr;
@@ -8591,7 +8594,20 @@ iframe {
 img {
   height: 100%; }
 
+.closePage {
+  cursor: default; }
+
+.closePage:hover {
+  background-color: #f4f4f4; }
+
 .slideUp {
+  height: 100vh !important;
+  -webkit-transition: 0.4s ease-in;
+  -o-transition: 0.4s ease-in;
+  transition: 0.4s ease-in;
+  visibility: visible; }
+
+.slideUp2 {
   height: 100vh !important;
   -webkit-transition: 0.4s ease-in;
   -o-transition: 0.4s ease-in;

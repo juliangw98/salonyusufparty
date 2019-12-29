@@ -2,8 +2,13 @@
 //    document.body.height = window.innerHeight;
 // }
 
+var height = window.innerHeight;
+
 $(window).on('load', function () {
-  $('.block').height = window.innerHeight;
+  $('.block').height = height;
+  $('.slideUp').height = height;
+  $('.slideUp2').height = height;
+
   console.log($('.block').innerHeight);
 $('.fadeInNow').addClass("fadeInAnimation");
 
@@ -34,13 +39,13 @@ $('#over2').click(function(){
 $("#over-content").addClass("slideUp");
 });
 $('#buttonYusuf').click(function(){
-$("#yusuf-content").addClass("slideUp");
+$("#yusuf-content").addClass("slideUp2");
 });
 $('#buttonGigi').click(function(){
-$("#gigi-content").addClass("slideUp");
+$("#gigi-content").addClass("slideUp2");
 });
 $('#buttonSalon').click(function(){
-$("#salon-content").addClass("slideUp");
+$("#salon-content").addClass("slideUp2");
 });
 $('#tarieven').click(function(){
 $("#tarieven-content").addClass("slideUp");
@@ -57,6 +62,10 @@ $("#producten-content").addClass("slideUp");
 $('.closePage').click(function(){
   // alert('been clicked');
   $(".slideUp").removeClass("slideUp");
+});
+$('.closePage2').click(function(){
+  // alert('been clicked');
+  $(".slideUp2").removeClass("slideUp2");
 });
 });
 

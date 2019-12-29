@@ -48,14 +48,28 @@
 @import "custom/over";
 @import "custom/prijzen";
 
-img{
+img {
 	height: 100%;
 }
 // .content {
 // 	overflow: scroll;
 // }
 
+.closePage {
+	cursor: default;
+}
+
+.closePage:hover {
+	background-color: #f4f4f4;
+}
+
 .slideUp {
+	height: 100vh!important;
+	transition: 0.4s ease-in;
+	visibility: visible;
+}
+
+.slideUp2 {
 	height: 100vh!important;
 	transition: 0.4s ease-in;
 	visibility: visible;
