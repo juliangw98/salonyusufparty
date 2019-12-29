@@ -8370,13 +8370,6 @@ p {
 .fas {
   color: #9F8A61; }
 
-h1 {
-  font-size: 18px; }
-
-@media (min-width: 576px) {
-  h1 {
-    font-size: 2rem; } }
-
 @media (min-width: 992px) {
   .afspraak-img {
     background-image: url("../images/salon.jpg");
