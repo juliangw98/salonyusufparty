@@ -58,8 +58,11 @@ img {
 .closePage {
 	cursor: default;
 }
-
+ 
 .closePage:hover {
+	background-color: #f4f4f4;
+}
+.closePage2:hover {
 	background-color: #f4f4f4;
 }
 

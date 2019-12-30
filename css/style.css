@@ -8430,6 +8430,7 @@ iframe {
   grid-column-gap: 15px;
   grid-row-gap: 15px; }
   #over-content .close {
+    font-weight: 400;
     font-size: 16px;
     position: absolute;
     left: 50px;
@@ -8599,6 +8600,9 @@ img {
   cursor: default; }
 
 .closePage:hover {
+  background-color: #f4f4f4; }
+
+.closePage2:hover {
   background-color: #f4f4f4; }
 
 .slideUp {
