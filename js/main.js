@@ -12,52 +12,84 @@ $(document).ready(function() {
   });
   $('#contact2').click(function(){
   $("#contact-content").addClass("slideUp");
+  var x = document.getElementsByClassName("slideUp");
+    x[0].style.height = window.innerHeight + 'px';
 });
 $('#afspraak').click(function(){
 $("#afspraak-content").addClass("slideUp");
+var x = document.getElementsByClassName("slideUp");
+  x[0].style.height = window.innerHeight + 'px';
 });
 $('#afspraak2').click(function(){
 $("#afspraak-content").addClass("slideUp");
+var x = document.getElementsByClassName("slideUp");
+  x[0].style.height = window.innerHeight + 'px';
 });
 $('#resultaten').click(function(){
 $("#klant-content").addClass("slideUp");
+var x = document.getElementsByClassName("slideUp");
+  x[0].style.height = window.innerHeight + 'px';
 });
 $('#resultaten2').click(function(){
 $("#klant-content").addClass("slideUp");
+var x = document.getElementsByClassName("slideUp");
+  x[0].style.height = window.innerHeight + 'px';
 });
 $('#over').click(function(){
 $("#over-content").addClass("slideUp");
+var x = document.getElementsByClassName("slideUp");
+  x[0].style.height = window.innerHeight + 'px';
 });
 $('#over2').click(function(){
 $("#over-content").addClass("slideUp");
+var x = document.getElementsByClassName("slideUp");
+  x[0].style.height = window.innerHeight + 'px';
 });
 $('#buttonYusuf').click(function(){
 $("#yusuf-content").addClass("slideUp2");
+var x = document.getElementsByClassName("slideUp2");
+  x[0].style.height = window.innerHeight + 'px';
 });
 $('#buttonGigi').click(function(){
 $("#gigi-content").addClass("slideUp2");
+var x = document.getElementsByClassName("slideUp2");
+  x[0].style.height = window.innerHeight + 'px';
 });
 $('#buttonSalon').click(function(){
 $("#salon-content").addClass("slideUp2");
+var x = document.getElementsByClassName("slideUp2");
+  x[0].style.height = window.innerHeight + 'px';
 });
 $('#tarieven').click(function(){
 $("#tarieven-content").addClass("slideUp");
+var x = document.getElementsByClassName("slideUp");
+  x[0].style.height = window.innerHeight + 'px';
 });
 $('#tarieven2').click(function(){
 $("#tarieven-content").addClass("slideUp");
+var x = document.getElementsByClassName("slideUp");
+  x[0].style.height = window.innerHeight + 'px';
 });
 $('#producten').click(function(){
 $("#producten-content").addClass("slideUp");
+var x = document.getElementsByClassName("slideUp");
+  x[0].style.height = window.innerHeight + 'px';
 });
 $('#producten2').click(function(){
 $("#producten-content").addClass("slideUp");
+var x = document.getElementsByClassName("slideUp");
+  x[0].style.height = window.innerHeight + 'px';
 });
 $('.closePage').click(function(){
   // alert('been clicked');
+  var x = document.getElementsByClassName("slideUp");
+    x[0].style.height = 0 + 'px';
   $(".slideUp").removeClass("slideUp");
 });
 $('.closePage2').click(function(){
   // alert('been clicked');
+  var x = document.getElementsByClassName("slideUp");
+    x[0].style.height = window.innerHeight + 'px';
   $(".slideUp2").removeClass("slideUp2");
 });
 });
