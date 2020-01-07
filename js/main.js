@@ -2,21 +2,14 @@
 //    document.body.height = window.innerHeight;
 // }
 
-var height = window.innerHeight;
-
-$(window).on('load', function () {
-  $('.block').height = height;
-  $('.slideUp').height = height;
-  $('.slideUp2').height = height;
-
-  console.log($('.block').innerHeight);
-$('.fadeInNow').addClass("fadeInAnimation");
-
-});
 $(document).ready(function() {
+  document.getElementById("home1").style.height = window.innerHeight + 'px';
   $('#contact').click(function(){
   $("#contact-content").addClass("slideUp");
-});
+  var x = document.getElementsByClassName("slideUp");
+    x[0].style.height = window.innerHeight + 'px';
+
+  });
   $('#contact2').click(function(){
   $("#contact-content").addClass("slideUp");
 });

@@ -58,7 +58,7 @@ img {
 .closePage {
 	cursor: default;
 }
- 
+
 .closePage:hover {
 	background-color: #f4f4f4;
 }
@@ -67,13 +67,13 @@ img {
 }
 
 .slideUp {
-	height: 100vh!important;
+	// height: 100vh!important;
 	transition: 0.4s ease-in;
 	visibility: visible;
 }
 
 .slideUp2 {
-	height: 100vh!important;
+	// height: 100vh!important;
 	transition: 0.4s ease-in;
 	visibility: visible;
 }
@@ -84,7 +84,7 @@ img {
 
 .button {
 	font-family: 'Muli', sans-serif;
-	font-weight: 900;
+	font-weight: 900; 
 	text-transform: uppercase;
 	padding: 15px;
 	color: white!important;
