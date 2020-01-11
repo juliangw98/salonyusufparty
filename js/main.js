@@ -7,7 +7,7 @@ $(document).ready(function() {
       console.log(data);
     });
 
-
+ 
 
   document.getElementById("home1").style.height = window.innerHeight + 'px';
   $('#contact').click(function(){
