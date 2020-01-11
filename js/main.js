@@ -2,10 +2,12 @@
 //    document.body.height = window.innerHeight;
 // }
 $(document).ready(function() {
-fetch("https://graph.instagram.com/me?fields=id,username&access_token=IGQVJVZAWRvTXQ5SHBka2FuM0o0bVRtUnJKNXMxMjBuV05ZAMDQyUUlYaFhabFRieWtXLWNHUEw2VUp6VmU1X0lDdFJkNDFYbThONV9ka2dlWmE2NlluYTlDSUlrNGt0ZAkQwR2E0ckdIcFdYRDM0dnZAJUnFOWTdJX0Fxcl9v",function(data) {
+fetch("https://graph.instagram.com/me?fields=id,username&access_token=IGQVJVZAWRvTXQ5SHBka2FuM0o0bVRtUnJKNXMxMjBuV05ZAMDQyUUlYaFhabFRieWtXLWNHUEw2VUp6VmU1X0lDdFJkNDFYbThONV9ka2dlWmE2NlluYTlDSUlrNGt0ZAkQwR2E0ckdIcFdYRDM0dnZAJUnFOWTdJX0Fxcl9v", gotData)
 
-      console.log(data);
-    });
+function gotData(data){
+  console.log(data);
+}
+
 
 
 
