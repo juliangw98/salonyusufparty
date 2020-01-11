@@ -2,8 +2,10 @@
 //    document.body.height = window.innerHeight;
 // }
 $(document).ready(function() {
-  GET /me?fields=media_url&access_token={access-token}
-  $.get("https://graph.instagram.com/me?fields=id,username&access_token=IGQVJYWnhmN2tzNUNjbWRjaG9MV2ZAXZAGZAfTU5aRUs4SW9pdHJrTENoXzVSaEhPd3psay1aTmF4Xzg2cGJjVlhtYVl2czVRZA1JPUHRUTFF0X19fbXU5ZAjhiNmNYR1FBUlBwQVhmQ0d6RkMzLW83NHZApN0JxcGlwWVBBSWVj")
+  $.get("https://graph.instagram.com/me?fields=id,username&access_token=IGQVJYWnhmN2tzNUNjbWRjaG9MV2ZAXZAGZAfTU5aRUs4SW9pdHJrTENoXzVSaEhPd3psay1aTmF4Xzg2cGJjVlhtYVl2czVRZA1JPUHRUTFF0X19fbXU5ZAjhiNmNYR1FBUlBwQVhmQ0d6RkMzLW83NHZApN0JxcGlwWVBBSWVj"function(data) {
+
+      console.log(data);
+    });
 
   document.getElementById("home1").style.height = window.innerHeight + 'px';
   $('#contact').click(function(){
