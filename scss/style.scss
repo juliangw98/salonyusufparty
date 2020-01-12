@@ -71,7 +71,12 @@ img {
 	transition: 0.4s ease-in;
 	visibility: visible;
 }
-
+.slideUpAfspraak {
+	// height: 100vh!important;
+	transition: 0.4s ease-in;
+	visibility: visible;
+	z-index: 100;
+}
 .slideUp2 {
 	// height: 100vh!important;
 	transition: 0.4s ease-in;
@@ -84,7 +89,7 @@ img {
 
 .button {
 	font-family: 'Muli', sans-serif;
-	font-weight: 900; 
+	font-weight: 900;
 	text-transform: uppercase;
 	padding: 15px;
 	color: white!important;

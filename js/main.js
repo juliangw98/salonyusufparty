@@ -26,8 +26,8 @@ var x = document.getElementsByClassName("slideUp");
 
 
 $('#afspraak-maken').click(function(){
-$("#afspraak-content").addClass("slideUp");
-var x = document.getElementsByClassName("slideUp");
+$("#afspraak-content").addClass("slideUpAfspraak");
+var x = document.getElementsByClassName("slideUpAfspraak");
   x[0].style.height = window.innerHeight + 'px';
 });
 $('#afspraak2').click(function(){
