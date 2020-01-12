@@ -28,6 +28,13 @@ $("#afspraak-content").addClass("slideUp");
 var x = document.getElementsByClassName("slideUp");
   x[0].style.height = window.innerHeight + 'px';
 });
+
+
+$('#afspraak-maken').click(function(){
+$("#afspraak-content").addClass("slideUp");
+var x = document.getElementsByClassName("slideUp");
+  x[0].style.height = window.innerHeight + 'px';
+});
 $('#afspraak2').click(function(){
 $("#afspraak-content").addClass("slideUp");
 var x = document.getElementsByClassName("slideUp");
