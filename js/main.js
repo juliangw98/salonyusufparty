@@ -91,15 +91,17 @@ var x = document.getElementsByClassName("slideUp");
   x[0].style.height = window.innerHeight + 'px';
 });
 $('.closePage').click(function(){
-  // alert('been clicked');
   var x = document.getElementsByClassName("slideUp");
     x[0].style.height = 0 + 'px';
   $(".slideUp").removeClass("slideUp");
+  var y = document.getElementsByClassName("slideUpAfspraak");
+    y[0].style.height = 0 + 'px';
+  $(".slideUpAfspraak").removeClass("slideUpAfspraak");
 });
 $('.closePage2').click(function(){
   // alert('been clicked');
-  var x = document.getElementsByClassName("slideUp");
-    x[0].style.height = window.innerHeight + 'px';
+  var x = document.getElementsByClassName("slideUp2");
+    x[0].style.height = 0 + 'px';
   $(".slideUp2").removeClass("slideUp2");
 });
 });

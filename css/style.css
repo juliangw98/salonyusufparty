@@ -8435,9 +8435,15 @@ iframe {
     padding: 10px 20px;
     opacity: 1;
     -webkit-filter: drop-shadow(0 0 0.75rem #333);
-    filter: drop-shadow(0 0 0.75rem #333); }
+    filter: drop-shadow(0 0 0.75rem #333);
+    -webkit-transition: .3s ease-in;
+    -o-transition: .3s ease-in;
+    transition: .3s ease-in; }
   #over-content .close:hover {
-    background-color: #f4f4f4; }
+    background-color: #f4f4f4;
+    -webkit-transition: .3s ease-in;
+    -o-transition: .3s ease-in;
+    transition: .3s ease-in; }
   #over-content h1 {
     font-size: 15px; }
   #over-content div {
@@ -8589,17 +8595,50 @@ iframe {
     .lijst .omschrijving h2 {
       color: #333; }
 
+#producten-content .closePage {
+  font-weight: 400;
+  font-size: 16px;
+  position: absolute;
+  top: 50px;
+  background-color: #FFF;
+  padding: 10px 20px;
+  opacity: 1;
+  -webkit-filter: drop-shadow(0 0 0.75rem #f4f4f4);
+  filter: drop-shadow(0 0 0.75rem #f4f4f4);
+  -webkit-transition: 0.3s ease-in;
+  -o-transition: 0.3s ease-in;
+  transition: 0.3s ease-in; }
+
+#producten-content .closePage:hover {
+  background-color: #f4f4f4;
+  -webkit-transition: 0.3s ease-in;
+  -o-transition: 0.3s ease-in;
+  transition: 0.3s ease-in; }
+
+.topbar {
+  z-index: 110;
+  position: fixed; }
+
 img {
   height: 100%; }
 
 .closePage {
-  cursor: default; }
+  cursor: default;
+  -webkit-transition: .2s ease-in;
+  -o-transition: .2s ease-in;
+  transition: .2s ease-in; }
 
 .closePage:hover {
-  background-color: #f4f4f4; }
+  background-color: #f4f4f4;
+  -webkit-transition: .2s ease-in;
+  -o-transition: .2s ease-in;
+  transition: .2s ease-in; }
 
 .closePage2:hover {
-  background-color: #f4f4f4; }
+  background-color: #f4f4f4;
+  -webkit-transition: .2s ease-in;
+  -o-transition: .2s ease-in;
+  transition: .2s ease-in; }
 
 .slideUp {
   -webkit-transition: 0.4s ease-in;
@@ -8621,7 +8660,10 @@ img {
   visibility: visible; }
 
 .close {
-  padding: 20px; }
+  padding: 20px;
+  -webkit-transition: .2s ease-in;
+  -o-transition: .2s ease-in;
+  transition: .2s ease-in; }
 
 .button {
   font-family: 'Muli', sans-serif;

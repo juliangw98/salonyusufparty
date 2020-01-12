@@ -16,10 +16,13 @@
     padding: 10px 20px;
     opacity: 1;
     filter: drop-shadow(0 0 0.75rem #333);
+    transition: .3s ease-in;
   }
 
   .close:hover {
     background-color: #f4f4f4;
+    transition: .3s ease-in;
+
   }
 
   h1 {

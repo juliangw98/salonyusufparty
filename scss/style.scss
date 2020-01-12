@@ -47,7 +47,12 @@
 @import "custom/contact";
 @import "custom/over";
 @import "custom/prijzen";
+@import "custom/products";
 
+.topbar{
+	z-index: 110;
+	position: fixed;
+}
 img {
 	height: 100%;
 }
@@ -57,13 +62,19 @@ img {
 
 .closePage {
 	cursor: default;
+	transition: .2s ease-in;
+
 }
 
 .closePage:hover {
 	background-color: #f4f4f4;
+	transition: .2s ease-in;
+
 }
 .closePage2:hover {
 	background-color: #f4f4f4;
+	transition: .2s ease-in;
+
 }
 
 .slideUp {
@@ -80,11 +91,13 @@ img {
 .slideUp2 {
 	// height: 100vh!important;
 	transition: 0.4s ease-in;
-	visibility: visible; 
+	visibility: visible;
 }
 
 .close {
 	padding: 20px;
+	transition: .2s ease-in;
+
 }
 
 .button {
