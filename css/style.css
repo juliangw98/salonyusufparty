@@ -8607,6 +8607,13 @@ img {
   transition: 0.4s ease-in;
   visibility: visible; }
 
+.slideUpAfspraak {
+  -webkit-transition: 0.4s ease-in;
+  -o-transition: 0.4s ease-in;
+  transition: 0.4s ease-in;
+  visibility: visible;
+  z-index: 100; }
+
 .slideUp2 {
   -webkit-transition: 0.4s ease-in;
   -o-transition: 0.4s ease-in;
