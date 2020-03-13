@@ -1,4 +1,3 @@
-
 .content {
   overflow: scroll;
 }
@@ -12,7 +11,7 @@
   height: 100vh;
   width: 100%;
   grid-template-rows: auto;
-  grid-template-areas: "contact contact" "afspraak over" "afspraak tarieven" "klanten producten";
+  grid-template-areas: 'contact contact' 'afspraak over' 'afspraak tarieven' 'klanten producten';
   grid-column-gap: 5px;
   grid-row-gap: 5px;
   overflow: hidden;
@@ -26,43 +25,44 @@
 
 .contact {
   grid-area: contact;
-  background-image: url("../images/salon.jpg");
+  background-image: url('../images/salon_2.JPG');
   background-size: cover;
   background-repeat: no-repeat;
+  background-position: right;
 }
 
 .afspraak {
   grid-area: afspraak;
-  background-image: url("../images/afspraak.jpg");
+  background-image: url('../images/afspraak_1.JPG');
   background-size: cover;
   background-repeat: no-repeat;
+  background-position: left;
 }
 
 .over {
   grid-area: over;
-  background-image: url("../images/crew.jpg");
+  background-image: url('../images/IMG_5009.JPG');
   background-size: cover;
   background-repeat: no-repeat;
-
 }
 
 .tarieven {
   grid-area: tarieven;
-  background-image: url("../images/tarieven.jpg");
+  background-image: url('../images/IMG_5009.JPG');
   background-size: cover;
   background-repeat: no-repeat;
 }
 
 .resultaten {
   grid-area: klanten;
-  background-image: url("../images/klanten.jpg");
+  background-image: url('../images/klant_5.png');
   background-size: cover;
   background-repeat: no-repeat;
 }
 
 .producten {
   grid-area: producten;
-  background-image: url("../images/product.jpg");
+  background-image: url('../images/product_1.JPG');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -135,9 +135,11 @@
   bottom: 0;
   transition: 0.5s ease-in;
 }
-@media (min-width: 576px) {}
+@media (min-width: 576px) {
+}
 // Medium devices (tablets, 768px and up)
-@media (min-width: 768px) {}
+@media (min-width: 768px) {
+}
 // Large devices (desktops, 992px and up)
 @media (min-width: 992px) {
   #home1 {
@@ -200,4 +202,5 @@
   }
 }
 // Extra large devices (large desktops, 1200px and up)
-@media (min-width: 1200px) {}
+@media (min-width: 1200px) {
+}

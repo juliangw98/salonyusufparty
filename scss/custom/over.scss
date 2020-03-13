@@ -1,28 +1,26 @@
 #over-content {
-
   display: grid;
   width: 100%;
   grid-template-rows: auto;
-  grid-template-areas: "yusuf" "gigi" "salon";
+  grid-template-areas: 'yusuf' 'gigi' 'salon';
   grid-column-gap: 15px;
   grid-row-gap: 15px;
   .close {
-    font-weight:400;
+    font-weight: 400;
     font-size: 16px;
     position: absolute;
     left: 50px;
     top: 50px;
-    background-color: #FFF;
+    background-color: #fff;
     padding: 10px 20px;
     opacity: 1;
     filter: drop-shadow(0 0 0.75rem #333);
-    transition: .3s ease-in;
+    transition: 0.3s ease-in;
   }
 
   .close:hover {
     background-color: #f4f4f4;
-    transition: .3s ease-in;
-
+    transition: 0.3s ease-in;
   }
 
   h1 {
@@ -41,7 +39,7 @@
 
 .yusuf {
   grid-area: yusuf;
-  background-image: url("../images/yusuf.jpg");
+  background-image: url('../images/yusuf_2.png');
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -49,17 +47,18 @@
 
 .gigi {
   grid-area: gigi;
-  background-image: url("../images/gigi.jpg");
+  background-image: url('../images/afspraak_1.JPG');
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: center;
+  background-position: left;
 }
 
 .salon {
   grid-area: salon;
-  background-image: url("../images/salon.jpg");
+  background-image: url('../images/salon_2.JPG');
   background-size: cover;
   background-repeat: no-repeat;
+  background-position: center;
 }
 
 #gigi-content,
@@ -77,9 +76,11 @@
     height: 40vh;
   }
 }
-@media (min-width: 576px) {}
+@media (min-width: 576px) {
+}
 // Medium devices (tablets, 768px and up)
-@media (min-width: 768px) {}
+@media (min-width: 768px) {
+}
 // Large devices (desktops, 992px and up)
 @media (min-width: 992px) {
   #over-content {
@@ -90,7 +91,7 @@
     width: 100%;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: auto;
-    grid-template-areas: "yusuf gigi salon";
+    grid-template-areas: 'yusuf gigi salon';
     grid-column-gap: 15px;
     grid-row-gap: 15px;
 
@@ -131,4 +132,5 @@
   }
 }
 // Extra large devices (large desktops, 1200px and up)
-@media (min-width: 1200px) {};
+@media (min-width: 1200px) {
+}

@@ -4,121 +4,175 @@
  * Copyright 2011-2019 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  */
-@import "bootstrap/functions";
-@import "bootstrap/variables";
-@import "bootstrap/mixins";
-@import "bootstrap/root";
-@import "bootstrap/reboot";
-@import "bootstrap/type";
-@import "bootstrap/images";
-@import "bootstrap/code";
-@import "bootstrap/grid";
-@import "bootstrap/tables";
-@import "bootstrap/forms";
-@import "bootstrap/buttons";
-@import "bootstrap/transitions";
-@import "bootstrap/dropdown";
-@import "bootstrap/button-group";
-@import "bootstrap/input-group";
-@import "bootstrap/custom-forms";
-@import "bootstrap/nav";
-@import "bootstrap/navbar";
-@import "bootstrap/card";
-@import "bootstrap/breadcrumb";
-@import "bootstrap/pagination";
-@import "bootstrap/badge";
-@import "bootstrap/jumbotron";
-@import "bootstrap/alert";
-@import "bootstrap/progress";
-@import "bootstrap/media";
-@import "bootstrap/list-group";
-@import "bootstrap/close";
-@import "bootstrap/toasts";
-@import "bootstrap/modal";
-@import "bootstrap/tooltip";
-@import "bootstrap/popover";
-@import "bootstrap/carousel";
-@import "bootstrap/spinners";
-@import "bootstrap/utilities";
-@import "bootstrap/print"; // eigen
-@import "custom/layout";
-@import "custom/font";
-@import "custom/afspraak";
-@import "custom/contact";
-@import "custom/over";
-@import "custom/prijzen";
-@import "custom/products";
+@import 'bootstrap/functions';
+@import 'bootstrap/variables';
+@import 'bootstrap/mixins';
+@import 'bootstrap/root';
+@import 'bootstrap/reboot';
+@import 'bootstrap/type';
+@import 'bootstrap/images';
+@import 'bootstrap/code';
+@import 'bootstrap/grid';
+@import 'bootstrap/tables';
+@import 'bootstrap/forms';
+@import 'bootstrap/buttons';
+@import 'bootstrap/transitions';
+@import 'bootstrap/dropdown';
+@import 'bootstrap/button-group';
+@import 'bootstrap/input-group';
+@import 'bootstrap/custom-forms';
+@import 'bootstrap/nav';
+@import 'bootstrap/navbar';
+@import 'bootstrap/card';
+@import 'bootstrap/breadcrumb';
+@import 'bootstrap/pagination';
+@import 'bootstrap/badge';
+@import 'bootstrap/jumbotron';
+@import 'bootstrap/alert';
+@import 'bootstrap/progress';
+@import 'bootstrap/media';
+@import 'bootstrap/list-group';
+@import 'bootstrap/close';
+@import 'bootstrap/toasts';
+@import 'bootstrap/modal';
+@import 'bootstrap/tooltip';
+@import 'bootstrap/popover';
+@import 'bootstrap/carousel';
+@import 'bootstrap/spinners';
+@import 'bootstrap/utilities';
+@import 'bootstrap/print'; // eigen
+@import 'custom/layout';
+@import 'custom/font';
+@import 'custom/afspraak';
+@import 'custom/contact';
+@import 'custom/over';
+@import 'custom/prijzen';
+@import 'custom/products';
 
-.topbar{
-	z-index: 110;
-	position: fixed;
+.topbar {
+  z-index: 110;
+  position: fixed;
 }
 img {
-	height: 100%;
+  height: 100%;
 }
 // .content {
 // 	overflow: scroll;
 // }
 
 .closePage {
-	cursor: default;
-	transition: .2s ease-in;
-
+  cursor: default;
+  transition: 0.2s ease-in;
 }
 
 .closePage:hover {
-	background-color: #f4f4f4;
-	transition: .2s ease-in;
-
+  background-color: #f4f4f4;
+  transition: 0.2s ease-in;
 }
 .closePage2:hover {
-	background-color: #f4f4f4;
-	transition: .2s ease-in;
-
+  background-color: #f4f4f4;
+  transition: 0.2s ease-in;
 }
 
 .slideUp {
-	// height: 100vh!important;
-	transition: 0.4s ease-in;
-	visibility: visible;
+  // height: 100vh!important;
+  transition: 0.4s ease-in;
+  visibility: visible;
 }
 .slideUpAfspraak {
-	// height: 100vh!important;
-	transition: 0.4s ease-in;
-	visibility: visible;
-	z-index: 100;
+  // height: 100vh!important;
+  transition: 0.4s ease-in;
+  visibility: visible;
+  z-index: 100;
 }
 .slideUp2 {
-	// height: 100vh!important;
-	transition: 0.4s ease-in;
-	visibility: visible;
+  // height: 100vh!important;
+  transition: 0.4s ease-in;
+  visibility: visible;
 }
 
 .close {
-	padding: 20px;
-	transition: .2s ease-in;
-
+  padding: 20px;
+  transition: 0.2s ease-in;
 }
 
 .button {
-	font-family: 'Muli', sans-serif;
-	font-weight: 900;
-	text-transform: uppercase;
-	padding: 15px;
-	color: white!important;
+  font-family: 'Muli', sans-serif;
+  font-weight: 900;
+  text-transform: uppercase;
+  padding: 15px;
+  color: white !important;
+}
+
+i {
+  font-size: 3em;
+  margin-right: 25px;
+  color: $primary;
+}
+
+.product_1 {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 60vh;
+  background-image: url('../images/product_1.JPG');
+}
+.product_2 {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 60vh;
+  background-image: url('../images/product_2.JPG');
+}
+
+.product_3 {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 50vh;
+  background-image: url('../images/product_2.JPG');
 }
 
 .feed {
-	display: grid;
-	height: 80vh;
-	width: 100%;
-	grid-template-columns: 1fr 1fr 1fr;
-	grid-template-areas: "pic1 pic2 pic3" "pic4 pic5 pic6" "pic7 pic8 pic9";
-	grid-column-gap: 15px;
+  display: grid;
+  height: 80vh;
+  width: 100%;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-areas: 'pic1 pic2 pic3' 'pic4 pic5 pic6' 'pic7 pic8 pic9';
+  grid-column-gap: 15px;
 }
 
 .pic {
-	background-color: $primary;
-	margin-top: 10px;
-	margin-bottom: 10px;
+  background-color: $primary;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.pic1 {
+  background-image: url('../images/klant_1.png');
+}
+.pic2 {
+  background-image: url('../images/klant_2.png');
+}
+.pic3 {
+  background-image: url('../images/klant_3.png');
+}
+.pic4 {
+  background-image: url('../images/klant_4.png');
+}
+.pic5 {
+  background-image: url('../images/klant_5.png');
+}
+.pic6 {
+  background-image: url('../images/klant_6.png');
+}
+.pic7 {
+  background-image: url('../images/klant_7.png');
+}
+.pic8 {
+  background-image: url('../images/klant_1.png');
+}
+.pic9 {
+  background-image: url('../images/klant_1.png');
 }

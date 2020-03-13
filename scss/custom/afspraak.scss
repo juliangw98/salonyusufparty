@@ -1,16 +1,19 @@
-
-@media (min-width: 576px) {}
+@media (min-width: 576px) {
+}
 // Medium devices (tablets, 768px and up)
-@media (min-width: 768px) {}
+@media (min-width: 768px) {
+}
 // Large devices (desktops, 992px and up)
 @media (min-width: 992px) {
   .afspraak-img {
-  	background-image: url("../images/salon.jpg");
-  	height: 100vh;
-  	width: 100%;
-  	padding: 0;
-  	background-size: cover;
+    background-image: url('../images/salon_1.JPG');
+    height: 100vh;
+    width: 100%;
+    padding: 0;
+    background-size: cover;
+    background-position: right;
   }
 }
 // Extra large devices (large desktops, 1200px and up)
-@media (min-width: 1200px) {};
+@media (min-width: 1200px) {
+}

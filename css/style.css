@@ -8148,7 +8148,7 @@ a.text-dark:hover, a.text-dark:focus {
   width: 100%;
   -ms-grid-rows: auto;
   grid-template-rows: auto;
-  grid-template-areas: "contact contact" "afspraak over" "afspraak tarieven" "klanten producten";
+  grid-template-areas: 'contact contact' 'afspraak over' 'afspraak tarieven' 'klanten producten';
   grid-column-gap: 5px;
   grid-row-gap: 5px;
   overflow: hidden; }
@@ -8166,24 +8166,26 @@ a.text-dark:hover, a.text-dark:focus {
   -ms-grid-column: 1;
   -ms-grid-column-span: 3;
   grid-area: contact;
-  background-image: url("../images/salon.jpg");
+  background-image: url("../images/salon_2.JPG");
   background-size: cover;
-  background-repeat: no-repeat; }
+  background-repeat: no-repeat;
+  background-position: right; }
 
 .afspraak {
   -ms-grid-row: 3;
   -ms-grid-row-span: 3;
   -ms-grid-column: 1;
   grid-area: afspraak;
-  background-image: url("../images/afspraak.jpg");
+  background-image: url("../images/afspraak_1.JPG");
   background-size: cover;
-  background-repeat: no-repeat; }
+  background-repeat: no-repeat;
+  background-position: left; }
 
 .over {
   -ms-grid-row: 3;
   -ms-grid-column: 3;
   grid-area: over;
-  background-image: url("../images/crew.jpg");
+  background-image: url("../images/IMG_5009.JPG");
   background-size: cover;
   background-repeat: no-repeat; }
 
@@ -8191,7 +8193,7 @@ a.text-dark:hover, a.text-dark:focus {
   -ms-grid-row: 5;
   -ms-grid-column: 3;
   grid-area: tarieven;
-  background-image: url("../images/tarieven.jpg");
+  background-image: url("../images/IMG_5009.JPG");
   background-size: cover;
   background-repeat: no-repeat; }
 
@@ -8199,7 +8201,7 @@ a.text-dark:hover, a.text-dark:focus {
   -ms-grid-row: 7;
   -ms-grid-column: 1;
   grid-area: klanten;
-  background-image: url("../images/klanten.jpg");
+  background-image: url("../images/klant_5.png");
   background-size: cover;
   background-repeat: no-repeat; }
 
@@ -8207,7 +8209,7 @@ a.text-dark:hover, a.text-dark:focus {
   -ms-grid-row: 7;
   -ms-grid-column: 3;
   grid-area: producten;
-  background-image: url("../images/product.jpg");
+  background-image: url("../images/product_1.JPG");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat; }
@@ -8360,28 +8362,46 @@ h3 {
   color: #9F8A61; }
 
 p {
-  line-height: 1.9; }
+  line-height: 1.9;
+  font-size: 16px; }
 
 .fas {
   color: #9F8A61; }
 
-h1 {
-  font-size: 18px; }
-
+h1,
 h2 {
-  font-size: 1.5rem; }
+  font-size: 20px; }
 
 @media (min-width: 576px) {
   h1 {
-    font-size: 2rem; } }
+    font-size: 20px; } }
+
+@media (min-width: 768px) {
+  h1 {
+    font-size: 20px; }
+  h2 {
+    font-size: 24px; }
+  p {
+    line-height: 1.9;
+    font-size: 18px; } }
+
+@media (min-width: 992px) {
+  h1 {
+    font-size: 24px; }
+  h2 {
+    font-size: 24px; }
+  p {
+    line-height: 1.9;
+    font-size: 18px; } }
 
 @media (min-width: 992px) {
   .afspraak-img {
-    background-image: url("../images/salon.jpg");
+    background-image: url("../images/salon_1.JPG");
     height: 100vh;
     width: 100%;
     padding: 0;
-    background-size: cover; } }
+    background-size: cover;
+    background-position: right; } }
 
 .tijden {
   display: -webkit-box;
@@ -8422,7 +8442,7 @@ iframe {
   width: 100%;
   -ms-grid-rows: auto;
   grid-template-rows: auto;
-  grid-template-areas: "yusuf" "gigi" "salon";
+  grid-template-areas: 'yusuf' 'gigi' 'salon';
   grid-column-gap: 15px;
   grid-row-gap: 15px; }
   #over-content .close {
@@ -8431,19 +8451,19 @@ iframe {
     position: absolute;
     left: 50px;
     top: 50px;
-    background-color: #FFF;
+    background-color: #fff;
     padding: 10px 20px;
     opacity: 1;
     -webkit-filter: drop-shadow(0 0 0.75rem #333);
     filter: drop-shadow(0 0 0.75rem #333);
-    -webkit-transition: .3s ease-in;
-    -o-transition: .3s ease-in;
-    transition: .3s ease-in; }
+    -webkit-transition: 0.3s ease-in;
+    -o-transition: 0.3s ease-in;
+    transition: 0.3s ease-in; }
   #over-content .close:hover {
     background-color: #f4f4f4;
-    -webkit-transition: .3s ease-in;
-    -o-transition: .3s ease-in;
-    transition: .3s ease-in; }
+    -webkit-transition: 0.3s ease-in;
+    -o-transition: 0.3s ease-in;
+    transition: 0.3s ease-in; }
   #over-content h1 {
     font-size: 15px; }
   #over-content div {
@@ -8468,7 +8488,7 @@ iframe {
   -ms-grid-row: 1;
   -ms-grid-column: 1;
   grid-area: yusuf;
-  background-image: url("../images/yusuf.jpg");
+  background-image: url("../images/yusuf_2.png");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center; }
@@ -8477,18 +8497,19 @@ iframe {
   -ms-grid-row: 3;
   -ms-grid-column: 1;
   grid-area: gigi;
-  background-image: url("../images/gigi.jpg");
+  background-image: url("../images/afspraak_1.JPG");
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: center; }
+  background-position: left; }
 
 .salon {
   -ms-grid-row: 5;
   -ms-grid-column: 1;
   grid-area: salon;
-  background-image: url("../images/salon.jpg");
+  background-image: url("../images/salon_2.JPG");
   background-size: cover;
-  background-repeat: no-repeat; }
+  background-repeat: no-repeat;
+  background-position: center; }
 
 #gigi-content .yusuf,
 #salon-content .yusuf,
@@ -8514,7 +8535,7 @@ iframe {
     grid-template-columns: 1fr 1fr 1fr;
     -ms-grid-rows: auto;
     grid-template-rows: auto;
-    grid-template-areas: "yusuf gigi salon";
+    grid-template-areas: 'yusuf gigi salon';
     grid-column-gap: 15px;
     grid-row-gap: 15px; }
     #over-content h1 {
@@ -8624,21 +8645,21 @@ img {
 
 .closePage {
   cursor: default;
-  -webkit-transition: .2s ease-in;
-  -o-transition: .2s ease-in;
-  transition: .2s ease-in; }
+  -webkit-transition: 0.2s ease-in;
+  -o-transition: 0.2s ease-in;
+  transition: 0.2s ease-in; }
 
 .closePage:hover {
   background-color: #f4f4f4;
-  -webkit-transition: .2s ease-in;
-  -o-transition: .2s ease-in;
-  transition: .2s ease-in; }
+  -webkit-transition: 0.2s ease-in;
+  -o-transition: 0.2s ease-in;
+  transition: 0.2s ease-in; }
 
 .closePage2:hover {
   background-color: #f4f4f4;
-  -webkit-transition: .2s ease-in;
-  -o-transition: .2s ease-in;
-  transition: .2s ease-in; }
+  -webkit-transition: 0.2s ease-in;
+  -o-transition: 0.2s ease-in;
+  transition: 0.2s ease-in; }
 
 .slideUp {
   -webkit-transition: 0.4s ease-in;
@@ -8661,9 +8682,9 @@ img {
 
 .close {
   padding: 20px;
-  -webkit-transition: .2s ease-in;
-  -o-transition: .2s ease-in;
-  transition: .2s ease-in; }
+  -webkit-transition: 0.2s ease-in;
+  -o-transition: 0.2s ease-in;
+  transition: 0.2s ease-in; }
 
 .button {
   font-family: 'Muli', sans-serif;
@@ -8672,6 +8693,32 @@ img {
   padding: 15px;
   color: white !important; }
 
+i {
+  font-size: 3em;
+  margin-right: 25px;
+  color: #9F8A61; }
+
+.product_1 {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 60vh;
+  background-image: url("../images/product_1.JPG"); }
+
+.product_2 {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 60vh;
+  background-image: url("../images/product_2.JPG"); }
+
+.product_3 {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 50vh;
+  background-image: url("../images/product_2.JPG"); }
+
 .feed {
   display: -ms-grid;
   display: grid;
@@ -8679,10 +8726,39 @@ img {
   width: 100%;
   -ms-grid-columns: 1fr 15px 1fr 15px 1fr;
   grid-template-columns: 1fr 1fr 1fr;
-  grid-template-areas: "pic1 pic2 pic3" "pic4 pic5 pic6" "pic7 pic8 pic9";
+  grid-template-areas: 'pic1 pic2 pic3' 'pic4 pic5 pic6' 'pic7 pic8 pic9';
   grid-column-gap: 15px; }
 
 .pic {
   background-color: #9F8A61;
+  background-size: cover;
+  background-repeat: no-repeat;
   margin-top: 10px;
   margin-bottom: 10px; }
+
+.pic1 {
+  background-image: url("../images/klant_1.png"); }
+
+.pic2 {
+  background-image: url("../images/klant_2.png"); }
+
+.pic3 {
+  background-image: url("../images/klant_3.png"); }
+
+.pic4 {
+  background-image: url("../images/klant_4.png"); }
+
+.pic5 {
+  background-image: url("../images/klant_5.png"); }
+
+.pic6 {
+  background-image: url("../images/klant_6.png"); }
+
+.pic7 {
+  background-image: url("../images/klant_7.png"); }
+
+.pic8 {
+  background-image: url("../images/klant_1.png"); }
+
+.pic9 {
+  background-image: url("../images/klant_1.png"); }
